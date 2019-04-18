@@ -1,7 +1,7 @@
 # SoNaR_corpus_formatted
 SoNaR1 corpus formatted for thesis use
 
-To recreate a run:
+To recreate a run:  
 step 1: run data_format.py > mid2.out  
 step 2: run SoNaR_neatlyv2.py > SoNaR1_totalv2.out  
 step 3: run divide.py  
