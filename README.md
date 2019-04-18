@@ -12,7 +12,7 @@ This dataset contains:
 1. all occurences of PER and MISC label as main cat  
 2. all occurences of the other categories that are labeled with a subcategory  
 
-(Please don't push to this directory)
+(Please don't push to this directory)  
  training data = training.txt  
  test data = test.txt  
  full version = SoNaR1_totalv2.txt
