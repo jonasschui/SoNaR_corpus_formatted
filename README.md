@@ -13,6 +13,6 @@ This dataset contains:
 2. all occurences of the other categories that are labeled with a subcategory  
 
 (Please don't push to this directory)  
- training data = training.txt  
- test data = test.txt  
+ training data = training.txt (80% of the data)  
+ test data = test.txt (20% of the data)  
  full version = SoNaR1_totalv2.txt
