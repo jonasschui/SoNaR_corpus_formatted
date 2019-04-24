@@ -16,3 +16,9 @@ This dataset contains:
  training data = training.txt (80% of the data)  
  test data = test.txt (20% of the data)  
  full version = SoNaR1_totalv2.txt
+
+NOTE:
+In case you'd like to have a development set go to using_development instead.  
+The test set remains the same however the training set is split.  
+10% of the original training set has been taken to create a development set.  
+90% of the original training set remains to use as training data.
