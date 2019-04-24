@@ -7,7 +7,7 @@
 import random as rn
 
 def main():
-	infile = open("SoNaR1_totalv2.out", "r")
+	infile = open("SoNaR1_training.txt", "r")
 	doc_titles = []
 	train_docs = []
 	training = []
@@ -20,23 +20,23 @@ def main():
 		line_as_list = line.split('\t')
 		if line_as_list[0] == "DOCUMENT":
 			counter = rn.randint(0, 9) 
-			if counter <= 7:
+			if counter <= 8:
 				train_docs.append("num")
 				training.append(line)
 			else:
 				test_docs.append("num")
 				test.append(line)
 			continue
-		if counter <= 7:
+		if counter <= 8:
 			training.append(line)
 		else:
 			test.append(line)
 	
-	with open('SoNaR1_training.txt', 'w') as f:
+	with open('using_development/SoNaR1_devcut_training.txt', 'w') as f:
 		for line in training:
 			f.write(line)
 			f.write("\n")
-	with open('SoNaR1_test.txt', 'w') as f:
+	with open('using_development/SoNaR1_dev.txt', 'w') as f:
 		for line in test:
 			f.write(line)
 			f.write("\n")
