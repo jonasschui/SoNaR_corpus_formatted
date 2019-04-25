@@ -23,4 +23,5 @@ The test set remains the same however the training set is split.
 10% of the original training set has been taken to create a development set.  
 90% of the original training set remains to use as training data.
 
-This repository is reserved for people that already have acces to the SoNaR corpus
+This repository is reserved for people that already have acces to the SoNaR corpus.  
+The corpus can be found here: https://ivdnt.org/downloads/tstc-sonar-corpus
